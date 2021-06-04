@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#paragraph{
+    font-size: 2rem;
+   cursor: pointer;
+   color:white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stopwatch{
+    height: 30vh;
+    width: 50vw;
+    border: 2px solid palevioletred;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+
+.hover{
+    font-size: 20px;
+}
+
+
+.button1, .button2, .button3{
+    text-align: center;
+    height: 8vh;
+    width: 10vw;
+    color: brown;
+    background:grey;
+    margin-left: 10px;
+
+}
+
+.hover:hover{
+    cursor: pointer;
+    background: wheat;
+    opacity: 0.4;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+   .hover{
+       font-size: 10px;
+   }
+   #paragraph{
+       font-size: 1rem;
+   }
+  }
+
+  
