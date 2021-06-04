@@ -61,7 +61,7 @@ buttonStart.onclick = function() {
       minutes.innerHTML = min;
     }
 
-    if (min > 1) {
+    if (min > 60) {
         console.log("minutes");
         hour++;
         hours.innerHTML = "0" + hour;
